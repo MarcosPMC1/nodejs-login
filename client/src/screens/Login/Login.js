@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 export function Login() {
     const [values, SetValues] = useState();
-    console.log(values);
+    
     const haddleChangeValues = (value) => {
         SetValues((prevValue) => ({
             ...prevValue,
