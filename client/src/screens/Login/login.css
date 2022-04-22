@@ -1,0 +1,19 @@
+#login{
+    width: 60vw;
+    height: 50vh;
+    position: absolute;
+    top: 10vh;
+    background-color: gray;
+    padding: 2vw;
+    padding-left: 40vw;
+}
+
+.container__login{
+    display: grid;
+    gap: 1rem;
+    margin: 10vw;
+}
+
+input, button{
+    width: 10vw;
+}
